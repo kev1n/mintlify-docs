@@ -35,11 +35,11 @@ production server URL:
 
 ```bash
 curl -s localhost:8080/openapi.json \
-  -H 'Host: api.anyapi.dev' -H 'X-Forwarded-Proto: https' -H 'X-Forwarded-Host: api.anyapi.dev' \
+  -H 'Host: api.getanyapi.com' -H 'X-Forwarded-Proto: https' -H 'X-Forwarded-Host: api.getanyapi.com' \
   | python3 -m json.tool > openapi.json
 ```
 
-Once `https://api.anyapi.dev/openapi.json` is deployed, you can instead point the group's `openapi`
+Once `https://api.getanyapi.com/openapi.json` is deployed, you can instead point the group's `openapi`
 field straight at that URL so docs auto-refresh on every Mintlify build (no snapshot to maintain).
 
 ## Workflow

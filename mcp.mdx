@@ -10,14 +10,14 @@ registry-driven tool surface that covers the entire catalog — no tool-per-API 
 
 | | |
 |---|---|
-| **Endpoint** | `https://api.anyapi.dev/mcp` |
+| **Endpoint** | `https://api.getanyapi.com/mcp` |
 | **Transport** | Streamable HTTP |
 | **Auth** | AnyAPI key as a Bearer token |
 | **Tools** | `list_apis`, `get_api`, `run_api` |
 
 ## Prerequisites
 
-- An AnyAPI key. Create one in the [dashboard](https://app.anyapi.dev) under **API keys**.
+- An AnyAPI key. Create one in the [dashboard](https://app.getanyapi.com) under **API keys**.
 - A funded USD wallet. `run_api` bills your wallet per successful request; discovery is free.
 - An MCP-capable client (Claude Code, Claude Desktop, Cursor, or any client that speaks
   Streamable HTTP).
@@ -36,7 +36,7 @@ registry-driven tool surface that covers the entire catalog — no tool-per-API 
     ```bash
     claude mcp add anyapi \
       --transport http \
-      https://api.anyapi.dev/mcp \
+      https://api.getanyapi.com/mcp \
       --header "Authorization: Bearer YOUR_ANYAPI_KEY"
     ```
 
@@ -54,7 +54,7 @@ registry-driven tool surface that covers the entire catalog — no tool-per-API 
       "mcpServers": {
         "anyapi": {
           "type": "http",
-          "url": "https://api.anyapi.dev/mcp",
+          "url": "https://api.getanyapi.com/mcp",
           "headers": {
             "Authorization": "Bearer YOUR_ANYAPI_KEY"
           }
@@ -72,7 +72,7 @@ registry-driven tool surface that covers the entire catalog — no tool-per-API 
     {
       "mcpServers": {
         "anyapi": {
-          "url": "https://api.anyapi.dev/mcp",
+          "url": "https://api.getanyapi.com/mcp",
           "headers": {
             "Authorization": "Bearer YOUR_ANYAPI_KEY"
           }
@@ -86,7 +86,7 @@ registry-driven tool surface that covers the entire catalog — no tool-per-API 
   <Tab title="Any MCP client">
     Configure a remote Streamable HTTP server with these values:
 
-    - **URL:** `https://api.anyapi.dev/mcp`
+    - **URL:** `https://api.getanyapi.com/mcp`
     - **Header:** `Authorization: Bearer YOUR_ANYAPI_KEY`
 
     Most clients accept the same JSON shape:
@@ -95,7 +95,7 @@ registry-driven tool surface that covers the entire catalog — no tool-per-API 
     {
       "mcpServers": {
         "anyapi": {
-          "url": "https://api.anyapi.dev/mcp",
+          "url": "https://api.getanyapi.com/mcp",
           "headers": { "Authorization": "Bearer YOUR_ANYAPI_KEY" }
         }
       }
@@ -189,5 +189,5 @@ Tool failures come back as MCP tool errors with a short machine-readable prefix:
 | `no_providers` | The API has no enabled providers | No |
 
 <Tip>
-  Need help? Reach out at [support@anyapi.dev](mailto:support@anyapi.dev).
+  Need help? Reach out at [support@getanyapi.com](mailto:support@getanyapi.com).
 </Tip>

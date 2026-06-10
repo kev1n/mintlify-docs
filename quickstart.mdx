@@ -8,14 +8,14 @@ your wallet, and run your first API.
 
 ## Prerequisites
 
-- An AnyAPI account — sign up at [app.anyapi.dev](https://app.anyapi.dev).
+- An AnyAPI account — sign up at [app.getanyapi.com](https://app.getanyapi.com).
 - A terminal with `curl` (or any HTTP client).
 
 ## Get started
 
 <Steps>
   <Step title="Create an API key">
-    In the [dashboard](https://app.anyapi.dev), open **API Keys** and create a new
+    In the [dashboard](https://app.getanyapi.com), open **API Keys** and create a new
     key. Copy it somewhere safe — it's shown only once.
 
     New accounts start with a small free balance, so you can make your first calls
@@ -28,7 +28,7 @@ your wallet, and run your first API.
 
     <CodeGroup>
     ```bash curl
-    curl -s https://api.anyapi.dev/v1/run/tiktok.profile \
+    curl -s https://api.getanyapi.com/v1/run/tiktok.profile \
       -H "X-API-Key: YOUR_ANYAPI_KEY" \
       -H "Content-Type: application/json" \
       -d '{"handle":"cristiano"}'
@@ -38,7 +38,7 @@ your wallet, and run your first API.
     import requests
 
     res = requests.post(
-        "https://api.anyapi.dev/v1/run/tiktok.profile",
+        "https://api.getanyapi.com/v1/run/tiktok.profile",
         headers={"X-API-Key": "YOUR_ANYAPI_KEY"},
         json={"handle": "cristiano"},
     )
@@ -46,7 +46,7 @@ your wallet, and run your first API.
     ```
 
     ```javascript node
-    const res = await fetch("https://api.anyapi.dev/v1/run/tiktok.profile", {
+    const res = await fetch("https://api.getanyapi.com/v1/run/tiktok.profile", {
       method: "POST",
       headers: {
         "X-API-Key": "YOUR_ANYAPI_KEY",
@@ -83,10 +83,10 @@ You don't need to know SKUs ahead of time — list and search the catalog:
 
 ```bash
 # List or search every available API
-curl -s "https://api.anyapi.dev/v1/apis?query=tiktok" -H "X-API-Key: YOUR_ANYAPI_KEY"
+curl -s "https://api.getanyapi.com/v1/apis?query=tiktok" -H "X-API-Key: YOUR_ANYAPI_KEY"
 
 # Inspect one API's input and output schemas
-curl -s https://api.anyapi.dev/v1/apis/tiktok.profile -H "X-API-Key: YOUR_ANYAPI_KEY"
+curl -s https://api.getanyapi.com/v1/apis/tiktok.profile -H "X-API-Key: YOUR_ANYAPI_KEY"
 ```
 
 The full catalog with typed schemas also lives in the [API Reference](/v1/run/tiktok.profile).
@@ -94,10 +94,10 @@ The full catalog with typed schemas also lives in the [API Reference](/v1/run/ti
 ## Check your balance
 
 ```bash
-curl -s https://api.anyapi.dev/v1/balance -H "X-API-Key: YOUR_ANYAPI_KEY"
+curl -s https://api.getanyapi.com/v1/balance -H "X-API-Key: YOUR_ANYAPI_KEY"
 ```
 
-Top up any time from the [dashboard](https://app.anyapi.dev) — your wallet is a
+Top up any time from the [dashboard](https://app.getanyapi.com) — your wallet is a
 USD balance you draw down per request.
 
 <Tip>
