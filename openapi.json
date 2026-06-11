@@ -71,10 +71,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -136,7 +132,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -254,10 +249,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -335,7 +326,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -449,10 +439,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -518,7 +504,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -636,10 +621,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -705,7 +686,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -810,10 +790,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -887,7 +863,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -993,10 +968,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -1066,7 +1037,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -1167,10 +1137,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -1236,7 +1202,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -1341,10 +1306,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -1418,7 +1379,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -1519,10 +1479,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -1592,7 +1548,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -1701,10 +1656,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -1778,7 +1729,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -1883,10 +1833,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -1964,7 +1910,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -2082,10 +2027,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -2167,7 +2108,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -2268,10 +2208,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -2337,7 +2273,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -2443,10 +2378,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -2512,7 +2443,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -2613,10 +2543,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -2682,7 +2608,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -2783,10 +2708,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -2844,7 +2765,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -2953,10 +2873,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -3018,7 +2934,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -3123,10 +3038,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -3176,7 +3087,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -3304,10 +3214,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -3369,7 +3275,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -3487,10 +3392,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -3552,7 +3453,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -3653,10 +3553,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -3730,7 +3626,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -3835,10 +3730,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -3920,7 +3811,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -4033,10 +3923,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -4114,7 +4000,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -4219,10 +4104,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -4296,7 +4177,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -4401,10 +4281,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -4474,7 +4350,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -4579,10 +4454,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -4660,7 +4531,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -4761,10 +4631,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -4810,7 +4676,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -4911,10 +4776,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -4984,7 +4845,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -5085,10 +4945,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -5166,7 +5022,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -5271,10 +5126,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -5352,7 +5203,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -5466,10 +5316,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -5535,7 +5381,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -5661,10 +5506,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -5742,7 +5583,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -5855,10 +5695,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -5936,7 +5772,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -6050,10 +5885,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -6123,7 +5954,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -6232,10 +6062,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -6313,7 +6139,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
@@ -6427,10 +6252,6 @@
                       "description": "Amount charged in USD.",
                       "type": "number"
                     },
-                    "creditsCharged": {
-                      "description": "Internal accounting unit (1 credit = $0.00001).",
-                      "type": "integer"
-                    },
                     "output": {
                       "additionalProperties": false,
                       "properties": {
@@ -6476,7 +6297,6 @@
                   "required": [
                     "output",
                     "provider",
-                    "creditsCharged",
                     "costUsd"
                   ],
                   "type": "object"
