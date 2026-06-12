@@ -3,17 +3,17 @@
   "theme": "mint",
   "name": "AnyAPI",
   "appearance": {
-    "default": "dark"
+    "default": "light"
   },
   "colors": {
-    "primary": "#e8743c",
-    "light": "#e8743c",
-    "dark": "#c85a1c"
+    "primary": "#1f4fe0",
+    "light": "#8194d8",
+    "dark": "#1736a6"
   },
   "background": {
     "color": {
-      "light": "#fbfbfa",
-      "dark": "#0b0b0d"
+      "light": "#ffffff",
+      "dark": "#1c1c1c"
     }
   },
   "fonts": {
